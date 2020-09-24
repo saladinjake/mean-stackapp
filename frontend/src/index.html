@@ -1,3 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,18 +27,10 @@
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css' />
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
     <link href="styles/styles.css" rel="stylesheet" />
-    
+
    <!-- Polyfill(s) for older browsers -->
-    <script src="lib/shim.min.js"></script>
 
-    <script src="lib/zone.js"></script>
-    <script src="lib/system.src.js"></script>
 
-    <script src="systemjs.config.js"></script>
-    <script>
-      System.import('app').catch(function(err){ console.error(err); });
-    </script>
-    
 </head>
 <body>
     <header class="navbar navbar-inner navbar-fixed-top">
@@ -40,9 +49,7 @@
     </header>
 
     <main class="container">
-        <app-container>
-            Loading...
-        </app-container>
+          <app-root></app-root>
         <br /><br />
     </main>
 
@@ -53,7 +60,7 @@
                     <footer>
                         <div class="row">
                             <div class="col-md-12">
-                                Created by <a href="http://twitter.com/DanWahlin" target="_blank">@DanWahlin</a>
+                                Created by saladin
                             </div>
                         </div>
                     </footer>
@@ -62,6 +69,6 @@
         </div>
     </footer>
 
-    
+
 </body>
 </html>
